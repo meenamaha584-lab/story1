@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+
+.page {
+    border: 2px solid #777;
+    padding: 15px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: #b8d0ff;
+    border: 2px solid deeppink;
+    border-radius: 30px;
+    padding: 12px;
+    margin-top: 0;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.story-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 5px 10px;
+}
+
+.story-row p {
+    width: 75%;
+    font-size: 19px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.story-row img {
+    width: 260px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #333;
+    margin-right: 5px;
+}
+
+.moral {
+    text-align: center;
+    background-color: #fff0bd;
+    border: 2px solid deeppink;
+    border-radius: 25px;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+}
